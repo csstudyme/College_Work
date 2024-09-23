@@ -1,6 +1,4 @@
 var res = require("./area_operations");
-quire("./square");
-
 
 console.log(res.circle_Area(12));
 console.log(res.rectangle_Area(7,5));
