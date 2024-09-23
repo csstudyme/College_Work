@@ -1,8 +1,7 @@
-var circle = require("./circle");
-var rectangle = require("./rectangle");
-var square = require("./square");
+var res = require("./area_operations");
+quire("./square");
 
 
-console.log(circle.circle_Area(12));
-console.log(rectangle.rectangle_Area(7,5));
-console.log(square.square_Area(6));
+console.log(res.circle_Area(12));
+console.log(res.rectangle_Area(7,5));
+console.log(res.square_Area(6));
