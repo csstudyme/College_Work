@@ -25,5 +25,5 @@ if(java > 45 && database > 45 && web > 45 &&  ot > 45){
         console.log("Grade: D");
     }
 }else{
-    console.log("Tou Failed the ExamYour Percentages is : " + percentage)
+    console.log("Tou Failed the ExamYour Percentages is : " + percentage.toFixed(2))
 }
