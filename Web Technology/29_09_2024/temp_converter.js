@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")();
 
-const cf = prompt('Selct Temperature you want to convert (c- Celsius, f- farhanite) : ').charAt(0);
+const cf = prompt('Selct Temperature you want to convert (c- Celsius, f- Fahrenheit ) : ').charAt(0);
 
 const temp = parseFloat(prompt('Enter the temperature : '));
 
