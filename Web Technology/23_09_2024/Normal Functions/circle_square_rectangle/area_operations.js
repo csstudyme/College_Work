@@ -8,7 +8,7 @@ exports.circle_Area = circle_Area;
 
 
 
-function rectangle_Area(l , b){
+function rectangle_Area(l,b){
     return l * b;
 }
 
