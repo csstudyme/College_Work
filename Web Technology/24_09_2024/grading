@@ -8,10 +8,11 @@ const ot = parseInt(prompt('Enter the Optimal Technology marks: '));
 let obtained_marks = java+database+web+ot
 let total_marks = 400;
 let percentage;
+percentage = (obtained_marks / total_marks) * 100;
 
 if(java > 45 && database > 45 && web > 45 &&  ot > 45){
     
-    percentage = (obtained_marks / total_marks) * 100;
+    
 
     console.log("percentage are : "+ percentage.toFixed(2))
 
@@ -27,5 +28,5 @@ if(java > 45 && database > 45 && web > 45 &&  ot > 45){
         console.log("Grade: D");
     }
 }else{
-    console.log("Tou Failed the Exam")
+    console.log("Tou Failed the ExamYour Percentages is : " + percentage)
 }
