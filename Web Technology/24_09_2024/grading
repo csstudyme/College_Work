@@ -10,10 +10,7 @@ let total_marks = 400;
 let percentage;
 percentage = (obtained_marks / total_marks) * 100;
 
-if(java > 45 && database > 45 && web > 45 &&  ot > 45){
-    
-    
-
+if(java > 45 && database > 45 && web > 45 &&  ot > 45){  
     console.log("percentage are : "+ percentage.toFixed(2))
 
     if (percentage > 80) {
