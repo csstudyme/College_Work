@@ -19,8 +19,8 @@ function fToc(F){
 
    if(cf == "C" || cf == "c"){
     cTof(temp)
-   }else if(cf == "F" || cf == "f"){
-
+   
+}else if(cf == "F" || cf == "f"){
     fToc(temp)
     
    }else{
