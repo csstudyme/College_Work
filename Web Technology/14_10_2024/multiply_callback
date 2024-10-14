@@ -1,0 +1,10 @@
+// # write a program to demonstrate a callback function while creating a function multiplication of three numbers
+
+
+function multiplication(multi){
+    console.warn(multi(2,3))
+}
+
+multiplication(function(a,b){
+    return a*b
+})
