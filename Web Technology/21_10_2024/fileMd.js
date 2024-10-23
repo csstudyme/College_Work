@@ -17,3 +17,7 @@ fs.readFile("Ajay.txt", function(err, data){
 fs.unlink("Ajay.txt", function(err, data){
     console.log("File delete succesfully")
 })
+
+fs.rename("Ajay.txt","Adi.txt", function(err, data){
+    console.log("File rename succesfully")
+})
