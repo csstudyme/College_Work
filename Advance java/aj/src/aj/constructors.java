@@ -30,7 +30,7 @@ public class constructors {
 	}
 
 	public String toString() {
-		return "constructors [id=" + id + ", name=" + name + "]";
+		return "toString Method  [id=" + id + ", name=" + name + "]";
 	}
 	
 	public static void main(String args[]) {

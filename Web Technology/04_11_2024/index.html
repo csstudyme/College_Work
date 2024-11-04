@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<form method="post" action="/submit">
+    <table  cellpadding="5" cellspacing="0">
+      <tr>
+        <td><label>First name:</label></td>
+        <td><input type="text" id="fname" name="fname"></td>
+      </tr>
+      <tr>
+        <td><label >Last name:</label></td>
+        <td><input type="text" id="lname" name="lname"></td>
+      </tr>
+      <tr>
+        <td><label >Email:</label></td>
+        <td><input type="email" id="email" name="email"></td>
+      </tr>
+      <tr>
+        <td><label >Phone Number:</label></td>
+        <td><input type="tel" id="phone" name="phone"></td>
+      </tr>
+      <tr>
+        <td><label >Department:</label></td>
+        <td>
+          <select id="department" name="department">
+            <option value="HR">HR</option>
+            <option value="Finance">Finance</option>
+            <option value="IT">IT</option>
+            <option value="Operations">Operations</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label >Date of Birth:</label></td>
+        <td><input type="date" id="dob" name="dob"></td>
+      </tr>
+      <tr>
+        <td><label >Address:</label></td>
+        <td><textarea id="address" name="address" rows="4" cols="30"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: center;">
+          <input type="submit" value="Submit">
+        </td>
+      </tr>
+    </table>
+  </form>
+  
+
+</body>
+</html>
