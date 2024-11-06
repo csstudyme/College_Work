@@ -1,7 +1,7 @@
 var http = require('http')
 var server = http.createServer(function (req, res){
 
-    res.write("hello server");
+    res.write("My name is Ajay Panpatil");
     res.end();
 
 })
