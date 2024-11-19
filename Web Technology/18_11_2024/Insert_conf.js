@@ -23,7 +23,7 @@ con.connect(function(err) {
             [6, 'Karan', 'Developer', 'B.Tech', 'Web Security', 'DevSecure', 4321098765],
             [7, 'Priya', 'Data Analyst', 'MCA', 'Big Data', 'DataFirm', 3210987654],
             [8, 'Rohit', 'Manager', 'MBA', 'Project Management', 'BizCorp', 2109876543],
-            [9, 'Neha', 'Economist', 'PhD', 'Market Trends', 'EcoThink', 1098765432],
+            [9, 'Neha', 'Economist', 'PhD', 'Market Trends', 'EcoThink', 1098763254],
             [10, 'Arjun', 'Designer', 'BFA', 'UX Research', 'DesignStudio', 9876543211]
         ];
     
